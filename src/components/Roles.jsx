@@ -5,7 +5,7 @@ function Roles() {
     <section className="roles-container">
       <h2 className="roles">Scrum Team</h2>
       <section className="individual-roles">
-        <section>
+        <section className="role">
           <h3>Product Owner (PO)</h3>
           <article>
             <img
@@ -18,11 +18,11 @@ function Roles() {
             <div>Works With The Stakeholders</div>
             <div>Owns Project Vision </div>
           </article>
-          <article>
+          <article className="role-button">
             <button>More Info</button>
           </article>
         </section>
-        <section>
+        <section className="role">
           {" "}
           <h3>Development Team (DT)</h3>
           <article>
@@ -33,11 +33,11 @@ function Roles() {
             <div>Builds The Product Increment</div>
             <div>Responsible For Transparency</div>
           </article>
-          <article>
+          <article className="role-button">
             <button>More Info</button>
           </article>
         </section>
-        <section>
+        <section className="role">
           <h3>Scrum Master (SM)</h3>
           <article>
             <img src="images/scrummaster.png" className="image-container"></img>
@@ -47,7 +47,7 @@ function Roles() {
             <div>Protects The Team From Distractions</div>
             <div>Scrum Expert</div>
           </article>
-          <article>
+          <article className="role-button">
             <button>More Info</button>
           </article>
         </section>

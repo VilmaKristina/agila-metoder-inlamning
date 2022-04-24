@@ -2,6 +2,7 @@
   text-align: center;
   background-color: rgb(254, 235, 178);
 }
+
 /* First Story */
 .header,
 .footer {
@@ -78,7 +79,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  
   padding: 0 2% 2% 2%;
   border: 2px solid orange;
   border-radius: 6px;
@@ -95,12 +96,11 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: space-between;
   gap: 60px;
-width: 100%;
+  width: 100%;
 }
 
 .individual-roles article {
   border: 1px solid rgb(229, 159, 94);
-  border: in;
 }
 
 .individual-roles section article {
@@ -111,7 +111,7 @@ width: 100%;
   border: 2px solid orange;
   border-radius: 6px;
   background-color: rgb(245, 210, 139);
-  min-width: 280px;
+ width: 90%;
 }
 
 .role-main {
@@ -153,4 +153,29 @@ width: 100%;
   border: 2px solid orange;
   border-radius: 6px;
   padding: 2.5%;
+}
+
+/*Third story*/
+.text-information-container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: center;
+  padding: 5%;
+  margin-top: 1rem;
+  padding: 0 2% 2% 2%;
+  border: 2px solid orange;
+  border-radius: 6px;
+  background-color: rgb(236, 229, 213);
+  width: 76%;
+  font-size: 0.8rem;
+}
+
+.text-information article {
+  text-align: left;
+}
+
+.role{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
