@@ -1,13 +1,15 @@
 import React from "react";
 import "../App.css";
+import Process from "../components/Process";
+import Roles from "../components/Roles";
 
 function Home() {
   return (
-    <section className="info-container">
-      <section>First Section</section>
-      <section>Second Section</section>
+    <main className="info-container">
+      <Roles />
+      <Process />
       <section>Third Section</section>
-    </section>
+    </main>
   );
 }
 
