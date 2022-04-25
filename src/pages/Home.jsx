@@ -2,12 +2,14 @@ import React from "react";
 import "../App.css";
 import Process from "../components/Process";
 import Roles from "../components/Roles";
+import ScrumDetails from "../components/ScrumDetails";
 
 function Home() {
   return (
     <main className="info-container">
       <Roles />
       <Process />
+      <ScrumDetails />
       <section className="text-information-container">
         <article>
           <h1>Product Backlog</h1>

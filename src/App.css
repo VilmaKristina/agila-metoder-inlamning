@@ -6,7 +6,24 @@
       rgba(255, 255, 255, 0.9)
     ),
     url(/public/images/forest.jpeg);
-    background-size: contain;
+  background-size: contain;
+}
+
+h4 {
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+ul {
+  list-style-type: circle;
+  margin-block-start: 0.1em;
+}
+
+ul li {
+  text-align: left;
+  padding: 2px;
+  font-size: 1.1rem;
+  line-height: 150%;
 }
 
 /* First Story */
@@ -25,7 +42,7 @@
       rgba(255, 255, 255, 0.7)
     ),
     url(/public/images/forest2.png);
-    background-size: contain;
+  background-size: contain;
 }
 
 .header-image {
@@ -91,7 +108,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  
   padding: 0 2% 2% 2%;
   border: 2px solid orange;
   border-radius: 6px;
@@ -107,12 +123,8 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: space-between;
-  gap: 60px;
+  gap: 40px;
   width: 100%;
-}
-
-.individual-roles article {
-  border: 1px solid rgb(229, 159, 94);
 }
 
 .individual-roles section article {
@@ -123,7 +135,7 @@
   border: 2px solid orange;
   border-radius: 6px;
   background-color: rgb(245, 210, 139);
- width: 90%;
+  width: 90%;
 }
 
 .role-main {
@@ -131,6 +143,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  gap: 4px;
+  border: 1px solid rgb(229, 159, 94);
+  padding: 4px;
+  font-size: 1.1rem;
 }
 
 .image-container {
@@ -154,6 +170,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 15px;
 }
 
 #image-arrow {
@@ -162,7 +179,6 @@
 }
 
 .scrum-scheme article {
-  border: 2px solid orange;
   border-radius: 6px;
   padding: 2.5%;
 }
@@ -187,8 +203,178 @@
   text-align: left;
 }
 
-.role{
+.role {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/*Fith User Story*/
+.scrum-artifacts {
+  background-color: rgb(31, 143, 9, 0.6);
+  border: 2px solid rgb(25, 112, 8);
+  font-weight: 600;
+}
+
+.sprint-events {
+  background-color: rgb(64, 112, 234, 0.6);
+  border: 2px solid rgb(64, 112, 234);
+  font-weight: 600;
+}
+
+.tools-image {
+  width: 80%;
+}
+
+.tools-container {
+  border: 2px solid orange;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+
+.tools-container article {
+  padding: 0;
+}
+
+.sprint-tools {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sprint-tools div {
+  padding: 5%;
+  border: 2px solid rgb(157, 83, 14);
+  background-color: rgb(236, 109, 38);
+  border-radius: 6px;
+}
+
+.scrum-title {
+  font-size: 2rem;
+  color: green;
+}
+
+.scrum-details-container {
+  width: 80%;
+}
+
+.scrum-details {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid grey;
+  border: 2px solid orange;
+  border-radius: 6px;
+}
+
+.details-title {
+  border-bottom: 2px solid grey;
+}
+
+.event-color {
+  font-size: 1.1rem;
+  min-width: 14%;
+  border-right: 2px solid orange;
+  background-color: rgb(236, 229, 213);
+}
+
+.event-container {
+  background-color: rgb(64, 112, 234, 0.6);
+  padding: 15px;
+  min-width: 4%;
+  border-radius: 6px 0 0 6px;
+}
+
+.artifact-color {
+  font-size: 1.1rem;
+  min-width: 14%;
+  border-right: 2px solid orange;
+  background-color: rgb(236, 229, 213);
+}
+
+.artifact-container {
+  background-color: rgb(31, 143, 9, 0.6);
+  padding: 15px;
+  min-width: 4%;
+  border-radius: 6px 0 0 6px;
+}
+
+.estimation-color {
+  font-size: 1.1rem;
+  min-width: 14%;
+  border-right: 2px solid orange;
+  background-color: rgb(236, 229, 213);
+}
+
+.estimation-container {
+  background-color: rgb(236, 109, 38);
+  padding: 15px;
+  min-width: 4%;
+  border-radius: 6px 0 0 6px;
+}
+
+.concept-color div {
+  padding: 15px;
+}
+
+.concept-name div {
+  padding: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.types-name {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.types-name p {
+  margin-block-start: 0.8em;
+  margin-block-end: 0.5em;
+  background-color: rgb(214, 214, 214);
+  border-radius: 6px;
+}
+
+.types-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-direction: column;
+  background-color: rgb(236, 229, 213);
+  border-radius: 0 6px 6px 0;
+}
+
+.event-name p {
+  border: 2px solid rgb(64, 112, 234);
+  padding: 4px;
+  font-weight: 600;
+}
+
+.artifact-name p {
+  border: 2px solid rgb(25, 112, 8);
+  padding: 4px;
+  font-weight: 600;
+}
+
+.estimation-name p {
+  border: 2px solid rgb(157, 83, 14);
+  padding: 4px;
+  font-weight: 600;
+}
+
+.role-button {
+  padding: 2% 5%;
+  font-size: 1.2rem;
+  background-color: green;
+  border: 2px solid rgb(25, 112, 8);
+  border-radius: 6px;
+  color: white;
 }
