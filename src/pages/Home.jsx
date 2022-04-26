@@ -2,12 +2,16 @@ import React from "react";
 import "../App.css";
 import Process from "../components/Process";
 import Roles from "../components/Roles";
+import ScrumBenefits from "../components/ScrumBenefits";
 import ScrumDetails from "../components/ScrumDetails";
 
 function Home() {
   return (
     <main className="info-container">
-      <Roles />
+      <section className="intro-section">
+        <Roles />
+        <ScrumBenefits />
+      </section>
       <Process />
       <ScrumDetails />
       <section className="text-information-container">
