@@ -1,56 +1,97 @@
 import React from "react";
+import { useState } from "react";
+import "../modals/Modal.css";
 
 function Roles() {
+  const [roles] = useState([
+    {
+      id: 1,
+      title: "Product Owner (PO)",
+      image: "images/productowner.png",
+      work: [
+        "Manages Product Backlog",
+        "Works With Stakeholders",
+        "Owns Project Vision",
+      ],
+    },
+    {
+      id: 2,
+      title: "Development Team (DT)",
+      image: "images/devteam.png",
+      work: [
+        "Self-Organized Group",
+        " Builds The Product Increment",
+        "Responsible For Transparency",
+      ],
+    },
+    {
+      id: 3,
+      title: "Scrum Master (SM)",
+      image: "images/scrummaster.png",
+      work: [
+        "Facilitater And Coach",
+        "Protects Team From Distractions",
+        "Scrum Expert",
+      ],
+    },
+  ]);
+
+  const [roleModal, setRoleModal] = useState([]);
+  const [roleClose, setRoleClose] = useState(false);
+
+  const moduleContainer = (role) => {
+    setRoleModal([role]);
+    setRoleClose(!roleClose);
+  };
+
   return (
     <section className="roles-container">
       <h3 className="scrum-title">Scrum Team</h3>
       <section className="individual-roles">
-        <section className="role">
-          <h3>Product Owner (PO)</h3>
-          <article>
-            <img
-              src="images/productowner.png"
-              className="image-container"
-            ></img>
+        {roles.map((role) => (
+          <section className="role" key={role.id}>
+            <h3>{role.title}</h3>
+            <article>
+              <img className="image-container" src={role.image}></img>
+            </article>
+            <article className="role-main">
+              <div>{role.work[0]}</div>
+              <div>{role.work[1]}</div>
+              <div>{role.work[2]}</div>
+            </article>
+            <article>
+              <button
+                className="role-button"
+                onClick={() => moduleContainer(role)}
+              >
+                More Info
+              </button>
+            </article>
+          </section>
+        ))}
+        {roleClose && (
+          <article className="modal-background">
+            <article className="modal-content">
+              <div className="modal-button">
+                <button onClick={moduleContainer}>X</button>
+              </div>
+              <div className="pop_up_content">
+                {roleModal.map((modal) => {
+                  return (
+                    <div className="pop_up_card" key={modal.id}>
+                      <p>{modal.title}</p>
+                      <article className="role-main">
+                        <div>{modal.work[0]}</div>
+                        <div>{modal.work[1]}</div>
+                        <div>{modal.work[2]}</div>
+                      </article>
+                    </div>
+                  );
+                })}
+              </div>
+            </article>
           </article>
-          <article className="role-main">
-            <div>Manages <strong>Product Backlog</strong></div>
-            <div>Works With <strong>Stakeholders</strong></div>
-            <div>Owns <strong>Project Vision</strong></div>
-          </article>
-          <article>
-            <button className="role-button">More Info</button>
-          </article>
-        </section>
-        <section className="role">
-          {" "}
-          <h3>Development Team (DT)</h3>
-          <article>
-            <img src="images/devteam.png" className="image-container"></img>
-          </article>
-          <article className="role-main">
-            <div><strong>Self-Organized</strong> Group</div>
-            <div>Builds The <strong>Product Increment</strong></div>
-            <div>Responsible For <strong>Transparency</strong></div>
-          </article>
-          <article>
-            <button className="role-button">More Info</button>
-          </article>
-        </section>
-        <section className="role">
-          <h3>Scrum Master (SM)</h3>
-          <article>
-            <img src="images/scrummaster.png" className="image-container"></img>
-          </article>
-          <article className="role-main">
-            <div>Facilitater And <strong>Coach</strong></div>
-            <div><strong>Protects Team</strong> From Distractions</div>
-            <div><strong>Scrum Expert</strong></div>
-          </article>
-          <article>
-            <button className="role-button">More Info</button>
-          </article>
-        </section>
+        )}
       </section>
     </section>
   );

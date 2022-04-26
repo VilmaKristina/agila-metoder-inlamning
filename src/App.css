@@ -180,25 +180,6 @@ ul li {
 }
 
 /*Third story*/
-.text-information-container {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  align-items: top;
-  padding: 5%;
-  margin: 1% auto;
-  padding: 0 2% 2% 2%;
-  border: 2px solid orange;
-  border-radius: 6px;
-  background-color: rgb(236, 229, 213);
-  width: 76%;
-  font-size: 1.1rem;
-  vertical-align: top;
-}
-
-.text-information article {
-  text-align: left;
-}
-
 .role {
   display: flex;
   flex-direction: column;
