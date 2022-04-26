@@ -32,7 +32,6 @@ function Home() {
       {openSprintReview && <SprintReview />}
       {openSprintRetrospective && <SprintRetrospetive />}
       {openTools && <SprintTools />}
-
     </main>
   );
 }

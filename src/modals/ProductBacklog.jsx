@@ -7,9 +7,9 @@ function ProductBacklog() {
   let { setProductBacklog } = useContext(ListContext);
   return (
     <section className="modal-background">
-      <section className="modal-content">
-        <div className="modal-button">
-          <button onClick={() => setProductBacklog(false)}>X</button>
+      <section className="modal-content green-module-background">
+        <div className="modal-button-container">
+          <button onClick={() => setProductBacklog(false)} className="modal-button">X</button>
         </div>
         <h2>Product Backlog</h2>
         <p>

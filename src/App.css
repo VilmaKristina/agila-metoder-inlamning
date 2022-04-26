@@ -8,6 +8,10 @@
     url(/public/images/forest.jpeg);
   background-size: contain;
 }
+h3 {
+  margin-block-start: 0.6em;
+  margin-block-end: 0.6em;
+}
 
 h4 {
   margin-block-start: 0.4em;
@@ -93,11 +97,12 @@ ul li {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 0 1% 2% 2%;
-  border: 2px solid orange;
+  border: 2px solid rgb(242, 204, 134);
   border-radius: 6px;
   background-color: rgb(236, 229, 213);
   width: 45%;
   margin: 3% 1% 3% 10%;
+  box-shadow: 6px 6px 8px #d4d3d3;
 }
 
 .info-container {
@@ -118,7 +123,6 @@ ul li {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: space-between;
-  gap: 10px;
   width: 100%;
 }
 
@@ -151,14 +155,18 @@ ul li {
 }
 
 .scrum-scheme-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   margin-top: 1rem;
   padding: 0 2% 2% 2%;
-  border: 2px solid orange;
   border-radius: 6px;
   background-color: rgb(236, 229, 213);
   width: 76%;
   font-size: 1.3rem;
   margin: 1% auto;
+  box-shadow: 6px 6px 8px #d4d3d3;
+  border: 2px solid rgb(242, 204, 134);
 }
 
 .scrum-scheme {
@@ -171,7 +179,6 @@ ul li {
 
 #image-arrow {
   border: none;
-  padding: 0 1rem;
 }
 
 .scrum-scheme article {
@@ -191,6 +198,38 @@ ul li {
   background-color: rgb(31, 143, 9, 0.6);
   border: 2px solid rgb(25, 112, 8);
   font-weight: 600;
+}
+
+.scrum-artifacts:hover div,
+.sprint-events:hover div,
+.sprint-tools:hover div {
+  display: none;
+}
+
+.scrum-artifacts:hover:before,
+.sprint-events:hover:before,
+.sprint-tools:hover:before,
+.sprint-image:hover:before {
+  content: "Additional Info!";
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.sprint-image:hover div {
+  display: none;
+}
+
+.sprint-tools:hover:before {
+  padding: 10px;
+}
+
+.scrum-artifacts:hover,
+.sprint-events:hover,
+.sprint-tools:hover,
+.sprint-image:hover {
+  background-color: rgb(240, 167, 57);
+  cursor: pointer;
+  border: 2px solid rgb(45, 45, 45, 0.8);
 }
 
 .sprint-events {
@@ -246,8 +285,9 @@ ul li {
   display: flex;
   flex-direction: row;
   border: 2px solid grey;
-  border: 2px solid orange;
   border-radius: 6px;
+  box-shadow: 6px 6px 8px #d4d3d3;
+  border: 2px solid rgb(242, 204, 134);
 }
 
 .details-title {
@@ -359,6 +399,7 @@ ul li {
   border: 2px solid rgb(25, 112, 8);
   border-radius: 6px;
   color: white;
+  cursor: pointer;
 }
 
 .intro-section {
@@ -366,40 +407,35 @@ ul li {
   flex-direction: row;
 }
 
-.scrum-benefits-container{
+.scrum-benefits-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: right;
   width: 28%;
-  }
+}
 
-.scrum-benefits-container h1{
+.scrum-benefits-container h1 {
   font-size: 1.8rem;
   color: green;
   margin-block-start: 0.2em;
-    margin-block-end: 0.2em;
+  margin-block-end: 0.2em;
 }
 
-.scrum-benefits-container h2{
+.scrum-benefits-container h2 {
   font-size: 1.4rem;
   color: rgb(27, 29, 27);
   margin-block-start: 0.2em;
-    margin-block-end: 0.8em;
+  margin-block-end: 0.8em;
 }
 
-.scrum-benefits li{
+.scrum-benefits li {
   font-size: 1.2rem;
 }
 
-.scrum-benefits{
+.scrum-benefits {
   display: flex;
   align-items: right;
   justify-content: right;
   font-size: 1.2rem;
 }
-
-
-
-
-

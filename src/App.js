@@ -12,12 +12,10 @@ function App() {
     <ProductProvider>
       <div className="App">
         <Router>
-        
           <Header />
           <Routes>
             <Route exact path="/" element={<Home />} />
           </Routes>
-          
           <Footer />
         </Router>
       </div>

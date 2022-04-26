@@ -31,7 +31,7 @@ function Roles() {
       work: [
         "Facilitater And Coach",
         "Protects Team From Distractions",
-        "Scrum Expert",
+        "Scrum Framework Expert",
       ],
     },
   ]);
@@ -55,9 +55,9 @@ function Roles() {
               <img className="image-container" src={role.image}></img>
             </article>
             <article className="role-main">
-              <div>{role.work[0]}</div>
-              <div>{role.work[1]}</div>
-              <div>{role.work[2]}</div>
+              <div>⁕ {role.work[0]}</div>
+              <div>⁕ {role.work[1]}</div>
+              <div>⁕ {role.work[2]}</div>
             </article>
             <article>
               <button
@@ -71,16 +71,16 @@ function Roles() {
         ))}
         {roleClose && (
           <article className="modal-background">
-            <article className="modal-content">
-              <div className="modal-button">
-                <button onClick={moduleContainer}>X</button>
+            <article className="modal-content role-module-container">
+              <div className="modal-button-container">
+                <button onClick={moduleContainer} className="modal-button">X</button>
               </div>
-              <div className="pop_up_content">
+              <div>
                 {roleModal.map((modal) => {
                   return (
-                    <div className="pop_up_card" key={modal.id}>
-                      <p>{modal.title}</p>
-                      <article className="role-main">
+                    <div key={modal.id}>
+                      <h3>{modal.title}</h3>
+                      <article>
                         <div>{modal.work[0]}</div>
                         <div>{modal.work[1]}</div>
                         <div>{modal.work[2]}</div>

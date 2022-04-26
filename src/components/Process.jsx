@@ -10,7 +10,7 @@ function Process() {
     setProductIncrement,
     setSprintReview,
     setSprintRetrospective,
-    setTools
+    setTools,
   } = useContext(ListContext);
 
   return (
@@ -60,19 +60,25 @@ function Process() {
           <article>
             <img src="images/tools.png" className="tools-image"></img>
           </article>
-          <article className="sprint-tools scrum-scheme" onClick={() => {
-            setTools(true);
-          }}>
+          <article
+            className="sprint-tools scrum-scheme"
+            onClick={() => {
+              setTools(true);
+            }}
+          >
             <div>Agile Estimation & Metrics</div>
           </article>
         </section>
         <article
           id="image-arrow"
+          className="sprint-image"
           onClick={() => {
             setSprint(true);
           }}
         >
-          <img src="images/sprintnew.png" className="image-container"></img>
+          <div>
+            <img src="images/sprintnew.png" className="image-container"></img>
+          </div>
         </article>
       </section>
       <section className="scrum-scheme">

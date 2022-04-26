@@ -7,9 +7,9 @@ function ProductIncrement() {
   let { setProductIncrement } = useContext(ListContext);
   return (
     <section className="modal-background">
-      <section className="modal-content">
-        <div className="modal-button">
-          <button onClick={() => setProductIncrement(false)}>X</button>
+      <section className="modal-content green-module-background">
+        <div className="modal-button-container">
+          <button onClick={() => setProductIncrement(false)} className="modal-button">X</button>
         </div>
         <h2>Product Increment</h2>
         <p>

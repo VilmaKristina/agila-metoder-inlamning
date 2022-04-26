@@ -7,9 +7,9 @@ function SprintRetrospetive() {
   let { setSprintRetrospective } = useContext(ListContext);
   return (
     <section className="modal-background">
-      <section className="modal-content">
-        <div className="modal-button">
-          <button onClick={() => setSprintRetrospective(false)}>X</button>
+      <section className="modal-content purple-module-background">
+        <div className="modal-button-container">
+          <button onClick={() => setSprintRetrospective(false)} className="modal-button">X</button>
         </div>
         <h2>Sprint Retrospective</h2>
         <p>

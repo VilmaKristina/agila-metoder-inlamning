@@ -10,9 +10,9 @@ function ScrumBenefits() {
         <ul>
           <li>Higher quality product</li>
           <li>Improves communication</li>
-          <li>Reduce project risk</li>
-          <li>Increase productivity</li>
-          <li>Improve project visibility</li>
+          <li>Reduces project risk</li>
+          <li>Increases productivity</li>
+          <li>Improves project visibility</li>
         </ul>
         </article>
       </section>

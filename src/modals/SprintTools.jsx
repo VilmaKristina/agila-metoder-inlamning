@@ -7,9 +7,9 @@ function SprintTools() {
   let { setTools } = useContext(ListContext);
   return (
     <section className="modal-background">
-      <section className="modal-content">
-        <div className="modal-button">
-          <button onClick={() => setTools(false)}>X</button>
+      <section className="modal-content orange-module-background">
+        <div className="modal-button-container">
+          <button onClick={() => setTools(false)} className="modal-button">X</button>
         </div>
         <h2>Sprint Tools</h2>
         <ul>

@@ -7,9 +7,9 @@ function ProductBacklog() {
   let { setSprintPlanning } = useContext(ListContext);
   return (
     <section className="modal-background">
-      <section className="modal-content">
-        <div className="modal-button">
-          <button onClick={() => setSprintPlanning(false)}>X</button>
+      <section className="modal-content purple-module-background">
+        <div className="modal-button-container">
+          <button onClick={() => setSprintPlanning(false)} className="modal-button">X</button>
         </div>
         <h2>Sprint Planning</h2>
         <p>

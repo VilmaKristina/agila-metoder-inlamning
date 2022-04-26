@@ -7,9 +7,9 @@ function SprintReview() {
   let { setSprintReview } = useContext(ListContext);
   return (
     <section className="modal-background">
-      <section className="modal-content">
-        <div className="modal-button">
-          <button onClick={() => setSprintReview(false)}>X</button>
+      <section className="modal-content purple-module-background">
+        <div className="modal-button-container">
+          <button onClick={() => setSprintReview(false)} className="modal-button">X</button>
         </div>
         <h2>Sprint Review</h2>
         <p>
