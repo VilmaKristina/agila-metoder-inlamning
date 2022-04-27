@@ -12,11 +12,41 @@ function SprintReview() {
           <button onClick={() => setSprintReview(false)} className="modal-button">X</button>
         </div>
         <h2>Sprint Review</h2>
-        <p>
-          The meeting when product increment is shown and stakeholders give
-          feedback about the product. Based on the feedback product backlog is
-          updated immediately. Meetings focus – product.
-        </p>
+        <p className="sprint-explanation">(Scrum Event)</p>
+        <section className="event-info-container">
+          <section className="modal-event-container">
+            <article className="extra-event-info">
+              <div className="main-description-info">
+              The meeting organized by PO when product increment is shown and stakeholders give
+              feedback about the product.   
+              </div>
+              <div className="event-questions">
+                <ul>
+                  <li>
+                  Stakeholders are very important in sprint review. They are people who have an invested interest in the product and who would be the right people to give the feedback.
+                  </li>
+                  <li>Based on the feedback product backlog is
+                  updated immediately.</li>
+                  <li>Outlook to stakeholders of upcoming ST work.</li>
+                </ul>
+              </div>
+            </article>
+          </section>
+          <section className="details-event-container">
+            <article className="single-detail-event">
+              <div>Participants:</div>
+              <div>PO, DT, SM and stakeholders</div>
+            </article>
+            <article className="single-detail-event">
+              <div>Duration:</div>
+              <div>Proportional to sprint long (1-month sprint - 4 hour meeting)</div>
+            </article>
+            <article className="single-detail-event">
+              <div>Meeting focus:</div>
+              <div>On the product</div>
+            </article>
+          </section>
+        </section>
       </section>
     </section>
   );

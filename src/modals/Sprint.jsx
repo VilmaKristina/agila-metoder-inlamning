@@ -9,15 +9,66 @@ function ProductBacklog() {
     <section className="modal-background">
       <section className="modal-content purple-module-background">
         <div className="modal-button-container">
-          <button onClick={() => setSprint(false)} className="modal-button">X</button>
+          <button onClick={() => setSprint(false)} className="modal-button">
+            X
+          </button>
         </div>
         <h2>Sprint & Daily Scrum</h2>
-        <p>
-          Product increment delivery phase with a strict time-box. Every sprint
-          is an independent part of work. Every day DT attends a daily scrum
-          meeting in order to estimate their work progress. This type of meeting
-          creates transparency during the sprint.
-        </p>
+        <p className="sprint-explanation">(Scrum Event)</p>
+        <section className="event-info-container">
+          <section className="modal-event-container">
+            <article className="extra-event-info">
+              <div className="main-description-info">
+                <ul>
+                  <li>
+                    Sprint - product increment delivery phase with a strict
+                    time-box.
+                  </li>
+                  <li>
+                    Daily scrum - a daily DT meeting in order to estimate its
+                    work progress.
+                  </li>
+                </ul>
+              </div>
+              <div className="event-questions">
+                <ul>
+                  <li>
+                    Every sprint is an independent part of work. Planned amount
+                    of work has to be completed by the team.
+                  </li>
+                  <li>
+                    Sprint cycle repeats until enough items in the product
+                    backlog have been completed.
+                  </li>
+                  <li>
+                    Daily Scrum is a everyday time-boxed event when DT
+                    creates its work plan for the day. The meeting creates
+                    transparency during the sprint. DT answers 3 questions: 1)
+                    What did you achieve yesterday? 2) What are you going to do
+                    today? 3) Are there any obstacles?
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </section>
+          <section className="details-event-container">
+            <article className="single-detail-event">
+              <div>Participants:</div>
+              <div>
+                Generally DT meeting (PO - can observe, SM - can help to
+                facilitate)
+              </div>
+            </article>
+            <article className="single-detail-event">
+              <div>Duration:</div>
+              <div>About 15 minutes</div>
+            </article>
+            <article className="single-detail-event">
+              <div>Meeting focus:</div>
+              <div>On work progress toward the Sprint Goal</div>
+            </article>
+          </section>
+        </section>
       </section>
     </section>
   );

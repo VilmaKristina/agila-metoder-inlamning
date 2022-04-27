@@ -37,7 +37,7 @@ function ScrumDetails() {
           <div className="types-name artifact-name">
             <p>Product Backlog</p>
             <p>Sprint Backlog</p>
-            <p>Sprint Increment</p>
+            <p>Product Increment</p>
           </div>
           <div>
             <ul>
