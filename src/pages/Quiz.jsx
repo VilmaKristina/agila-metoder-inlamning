@@ -26,7 +26,7 @@ function Quiz() {
       ],
     },
     {
-      question: "Which member of Scrum team buids product increment?",
+      question: "Which member of Scrum team builds product increment?",
       answers: [
         { id: 1, choice: "Development Team (DT)", correct: true },
         { id: 2, choice: "Product Owner (PO)", correct: false },
@@ -45,7 +45,7 @@ function Quiz() {
         {
           id: 2,
           choice:
-            "a sum of completely finished user stories points (calculated at the end of each sprint)",
+            "a sum of completely finished user story points (calculated at the end of each Sprint)",
           correct: true,
         },
         {

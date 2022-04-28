@@ -22,7 +22,7 @@ function SprintBacklog() {
           <section className="modal-event-container">
             <article className="extra-event-info">
               <div className="main-description-info">
-                A set of chosen items from the product backlog that the team
+                A <strong>set of chosen items from the product backlog</strong> that the team
                 obligates to accomplish in a given sprint.
               </div>
               <div className="event-questions">
@@ -44,7 +44,7 @@ function SprintBacklog() {
             </article>
             <article className="single-detail-event">
               <div>Artifact focus:</div>
-              <div>On individul sprint goals</div>
+              <div>On individual sprint goals</div>
             </article>
           </section>
         </section>

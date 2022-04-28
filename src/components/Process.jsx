@@ -27,7 +27,11 @@ function Process() {
         </article>
 
         <article id="image-arrow">
-          <img src="images/arrow-right.png" className="image-container"></img>
+          <img
+            src="images/arrow-right.png"
+            className="image-container"
+            alt="Arrow Right"
+          ></img>
         </article>
         <article
           className="sprint-events"
@@ -38,7 +42,11 @@ function Process() {
           <div>Sprint Planning</div>
         </article>
         <article id="image-arrow">
-          <img src="images/arrow-right.png" className="image-container"></img>
+          <img
+            src="images/arrow-right.png"
+            className="image-container"
+            alt="Arrow Right"
+          ></img>
         </article>
         <article
           className="scrum-artifacts"
@@ -49,16 +57,28 @@ function Process() {
           <div>Sprint Backlog</div>
         </article>
         <article id="image-arrow">
-          <img src="images/arrow-down.png" className="image-container"></img>
+          <img
+            src="images/arrow-down.png"
+            className="image-container"
+            alt="Arrow Down"
+          ></img>
         </article>
       </section>
       <section className="scrum-scheme">
         <article id="image-arrow">
-          <img src="images/arrow-up.png" className="image-container"></img>
+          <img
+            src="images/arrow-up.png"
+            className="image-container"
+            alt="Arrow Up"
+          ></img>
         </article>
         <section className="tools-container">
           <article>
-            <img src="images/tools.png" className="tools-image"></img>
+            <img
+              src="images/tools.png"
+              className="tools-image"
+              alt="Tools"
+            ></img>
           </article>
           <article
             className="sprint-tools scrum-scheme"
@@ -77,13 +97,17 @@ function Process() {
           }}
         >
           <div>
-            <img src="images/sprint.png" className="image-container"></img>
+            <img
+              src="images/sprint.png"
+              className="image-container"
+              alt="Sprint"
+            ></img>
           </div>
         </article>
       </section>
       <section className="scrum-scheme">
         <article
-          class="sprint-events"
+          className="sprint-events"
           onClick={() => {
             setSprintRetrospective(true);
           }}
@@ -91,7 +115,11 @@ function Process() {
           <div>Sprint Retrospective</div>
         </article>
         <article id="image-arrow">
-          <img src="images/arrow-left.png" className="image-container"></img>
+          <img
+            src="images/arrow-left.png"
+            className="image-container"
+            alt="Arrow Left"
+          ></img>
         </article>
         <article
           className="sprint-events"
@@ -102,7 +130,11 @@ function Process() {
           <div>Sprint Review</div>
         </article>
         <article id="image-arrow">
-          <img src="images/arrow-left.png" className="image-container"></img>
+          <img
+            src="images/arrow-left.png"
+            className="image-container"
+            alt="Arrow Left"
+          ></img>
         </article>
         <article
           className="scrum-artifacts"
@@ -113,7 +145,11 @@ function Process() {
           <div>Product Increment</div>
         </article>
         <article id="image-arrow">
-          <img src="images/arrow-to-left.png" className="image-container"></img>
+          <img
+            src="images/arrow-to-left.png"
+            className="image-container"
+            alt="Arrow Left"
+          ></img>
         </article>
       </section>
     </section>

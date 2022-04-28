@@ -22,14 +22,14 @@ function SprintPlanning() {
           <section className="modal-event-container">
             <article className="extra-event-info">
               <div className="main-description-info">
-                The meeting run by SM when the team defines the sprint goal - the set of
-                product backlog items to work on during the upcoming sprint.
+                The meeting runs by SM when <strong>the team defines the Sprint goal</strong> - the set of
+                product backlog items to work on during the upcoming Sprint.
               </div>
               <div className="event-questions">
                 <p>Two questions are being answered:</p>
                 <ul>
                   <li>
-                    What needs to be done in order to achieve sprint goal?
+                    What needs to be done in order to achieve Sprint goal?
                   </li>
                   <li>How are we going to achieve it?</li>
                 </ul>
@@ -43,7 +43,7 @@ function SprintPlanning() {
             </article>
             <article className="single-detail-event">
               <div>Duration:</div>
-              <div>Proportional to sprint long (1-month sprint - 8 hour meeting)</div>
+              <div>Proportional to Sprint long (1-month Sprint - 8 hour meeting)</div>
             </article>
             <article className="single-detail-event">
               <div>Meeting focus:</div>

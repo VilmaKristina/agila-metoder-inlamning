@@ -22,7 +22,7 @@ function ProductIncrement() {
           <section className="modal-event-container">
             <article className="extra-event-info">
               <div className="main-description-info">
-                The total sum of work finished during a sprint and all the
+                The <strong>total sum of work finished</strong> during the Sprint and all the
                 previous sprints.
               </div>
               <div className="event-questions">
@@ -34,7 +34,7 @@ function ProductIncrement() {
 
                   <li>It is a step toward a vision or goal.</li>
                   <li>
-                    Each Product increment should be shippable and in a usable
+                    Each product increment should be shippable and in an usable
                     condition in order to provide value.
                   </li>
                 </ul>

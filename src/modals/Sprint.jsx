@@ -21,12 +21,12 @@ function ProductBacklog() {
               <div className="main-description-info">
                 <ul>
                   <li>
-                    Sprint - product increment delivery phase with a strict
+                    <h4>Sprint</h4> <i>product increment delivery phase</i> with a strict
                     time-box.
                   </li>
                   <li>
-                    Daily scrum - a daily DT meeting in order to estimate its
-                    work progress.
+                  <h4>Daily scrum</h4> <i>a daily DT meeting</i> in order <i>to estimate its
+                    work progress</i>.
                   </li>
                 </ul>
               </div>
@@ -43,7 +43,7 @@ function ProductBacklog() {
                   <li>
                     Daily Scrum is a everyday time-boxed event when DT
                     creates its work plan for the day. The meeting creates
-                    transparency during the sprint. DT answers 3 questions: 1)
+                    transparency during the Sprint. DT answers 3 questions: 1)
                     What did you achieve yesterday? 2) What are you going to do
                     today? 3) Are there any obstacles?
                   </li>
@@ -55,7 +55,7 @@ function ProductBacklog() {
             <article className="single-detail-event">
               <div>Participants:</div>
               <div>
-                Generally DT meeting (PO - can observe, SM - can help to
+                Daily Scrum - Generally DT meeting (PO - can observe, SM - can help to
                 facilitate)
               </div>
             </article>

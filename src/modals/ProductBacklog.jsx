@@ -22,7 +22,7 @@ function ProductBacklog() {
           <section className="modal-event-container">
             <article className="extra-event-info">
               <div className="main-description-info">
-              An ordered list of product features, functions and requirements.
+              An <strong>ordered list</strong> of product features, functions and requirements.
               </div>
               <div className="event-questions">
                 <ul>

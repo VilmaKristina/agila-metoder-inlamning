@@ -64,7 +64,7 @@ function ScrumDetails() {
           <div>
             <ul>
               <li>
-                Agile estimation is the <strong>process estimate</strong> the required <strong>effort</strong> for completing product backlog task.
+                Agile estimation is the <strong>process to estimate</strong> the required <strong>effort</strong> for completing product backlog task.
               </li>
               <li>
                 Scrum metrics <strong>measure the effectiveness</strong> and <strong>improve efficiency</strong> of development team in project delivery.

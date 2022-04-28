@@ -87,10 +87,6 @@
 }
 
 .extra-event-info div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   padding: 10px;
 }
 
@@ -172,7 +168,7 @@
 
 .main-description-info2 p {
   margin-block-start: 0em;
-  margin-block-end: 0.5em;
+  margin-block-end: 1em;
 }
 
 .bn-chart {

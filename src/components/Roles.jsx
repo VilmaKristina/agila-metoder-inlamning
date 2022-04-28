@@ -67,8 +67,7 @@ function Roles() {
     <section className="roles-container">
       <h3 className="scrum-title">Scrum Team</h3>
       <p>
-        The <strong>whole team</strong> is accountable for creating{" "}
-        <strong>the product increment</strong> every Sprint.
+        The <strong>whole team</strong> is accountable for creating <strong>the product increment</strong> every Sprint.
       </p>
       <section className="individual-roles">
         {roles.map((role) => (

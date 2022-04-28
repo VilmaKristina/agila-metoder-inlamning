@@ -17,13 +17,13 @@ function SprintReview() {
           <section className="modal-event-container">
             <article className="extra-event-info">
               <div className="main-description-info">
-              The meeting organized by PO when product increment is shown and stakeholders give
-              feedback about the product.   
+              The meeting organized by PO when <strong>product increment is shown</strong> and <strong>stakeholders give
+              feedback</strong> about the product.   
               </div>
               <div className="event-questions">
                 <ul>
                   <li>
-                  Stakeholders are very important in sprint review. They are people who have an invested interest in the product and who would be the right people to give the feedback.
+                  Stakeholders are very important in Sprint review. They are people who have an invested interest in the product and who would be the right people to give the feedback.
                   </li>
                   <li>Based on the feedback product backlog is
                   updated immediately.</li>
@@ -39,7 +39,7 @@ function SprintReview() {
             </article>
             <article className="single-detail-event">
               <div>Duration:</div>
-              <div>Proportional to sprint long (1-month sprint - 4 hour meeting)</div>
+              <div>Proportional to Sprint long (1-month Sprint - 4 hour meeting)</div>
             </article>
             <article className="single-detail-event">
               <div>Meeting focus:</div>

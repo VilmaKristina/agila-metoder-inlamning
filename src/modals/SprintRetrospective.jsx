@@ -22,15 +22,14 @@ function SprintRetrospetive() {
           <section className="modal-event-container">
             <article className="extra-event-info">
               <div className="main-description-info">
-                The meeting that happens after the sprint review before the next
-                sprint planning. ST discusses how to improve their tools and
-                collaboration.
+                The meeting that happens after the Sprint review before the next
+                Sprint planning. <strong>ST discusses how to improve their tools</strong> and <strong>collaboration</strong>.
               </div>
               <div className="event-questions">
                 <ul>
-                  <li>Discuss what went right or wrong and areas for improvements for further sprints.</li>
+                  <li>Discuss what went right or wrong and areas for improvements for further Sprints.</li>
                   <li>The purpose of this meeting - to improve the way ST work.</li>
-                  <li>SM facilitates the meeting and summarizes a sprint retrospective</li>
+                  <li>SM facilitates the meeting and summarizes the Sprint retrospective.</li>
                 </ul>
               </div>
             </article>
@@ -43,7 +42,7 @@ function SprintRetrospetive() {
             <article className="single-detail-event">
               <div>Duration:</div>
               <div>
-                Proportional to sprint long (1-month sprint - 3 hour meeting)
+                Proportional to Sprint long (1-month Sprint - 3 hour meeting)
               </div>
             </article>
             <article className="single-detail-event">
