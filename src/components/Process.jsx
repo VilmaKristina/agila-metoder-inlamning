@@ -30,7 +30,7 @@ function Process() {
           <img src="images/arrow-right.png" className="image-container"></img>
         </article>
         <article
-          class="sprint-events"
+          className="sprint-events"
           onClick={() => {
             setSprintPlanning(true);
           }}
@@ -77,7 +77,7 @@ function Process() {
           }}
         >
           <div>
-            <img src="images/sprintnew.png" className="image-container"></img>
+            <img src="images/sprint.png" className="image-container"></img>
           </div>
         </article>
       </section>
@@ -94,7 +94,7 @@ function Process() {
           <img src="images/arrow-left.png" className="image-container"></img>
         </article>
         <article
-          class="sprint-events"
+          className="sprint-events"
           onClick={() => {
             setSprintReview(true);
           }}

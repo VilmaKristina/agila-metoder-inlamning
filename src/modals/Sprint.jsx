@@ -61,7 +61,7 @@ function ProductBacklog() {
             </article>
             <article className="single-detail-event">
               <div>Duration:</div>
-              <div>About 15 minutes</div>
+              <div>Sprint - 3 to 30 days; Daily Scrum - about 15 minutes</div>
             </article>
             <article className="single-detail-event">
               <div>Meeting focus:</div>

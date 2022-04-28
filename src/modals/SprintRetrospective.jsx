@@ -29,7 +29,7 @@ function SprintRetrospetive() {
               <div className="event-questions">
                 <ul>
                   <li>Discuss what went right or wrong and areas for improvements for further sprints.</li>
-                  <li>The purpose of this meeting - to improve the way SM work.</li>
+                  <li>The purpose of this meeting - to improve the way ST work.</li>
                   <li>SM facilitates the meeting and summarizes a sprint retrospective</li>
                 </ul>
               </div>

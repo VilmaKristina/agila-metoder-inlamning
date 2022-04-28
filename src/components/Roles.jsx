@@ -15,9 +15,9 @@ function Roles() {
         "Communicates Project Vision",
       ],
       details: [
-        "Defines what the product will look like and what features it should contain",
-        "With anyone who cares about the work of the product (e.g. customers, funders",
-        "To the team to help set priorities",
+        "Defines what the product will look like and what features it should contain.",
+        "With anyone who cares about the work of the product (e.g. customers, funders).",
+        "To the team to help set priorities.",
       ],
     },
     {
@@ -45,7 +45,7 @@ function Roles() {
       work: [
         "Serves The Team",
         "Serves The Product Owner",
-        "Serves the organization",
+        "Serves The Organization",
       ],
       details: [
         "e.g, coaches the team members in self-management, is responsible for helping everyone in the team understand Scrum theory, practices and values.",
@@ -75,7 +75,7 @@ function Roles() {
           <section className="role" key={role.id}>
             <h3>{role.title}</h3>
             <article>
-              <img className="image-container" src={role.image}></img>
+              <img className="image-container" src={role.image} alt="Scrum team Members"></img>
             </article>
             <article className="role-main">
               <div>⁕ {role.work[0]}</div>
